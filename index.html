@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TenAfrika</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+
+    <link href="img/favicon.ico" rel="icon" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+  
+    <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small>Kigali,Rwanda</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Mon - Fri : 09.00 AM - 05.00 PM</small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>+250 795 765 620</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand p-0">
+        <img class="img-fluid me-3" src="img/icon/icon-10.png" alt="Icon" />
+        <h1 class="m-0 text-primary">TenAfrika</h1>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#analysis" class="nav-item nav-link">Analysis</a>
+         
+          <a href="#stakeholder" class="nav-item nav-link">Stakeholders</a>
+        </div>
+        <a href="#contact" class="btn btn-primary"
+          >Contact<i class="fa fa-arrow-right ms-3"></i
+        ></a>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-dark p-0 mb-5" id="mission">
+      <div class="row g-0 flex-column-reverse flex-lg-row">
+        <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+          <div
+            class="header-bg h-100 d-flex flex-column justify-content-center p-5"
+          >
+            <h5 class="display-6 text-light mb-5">
+             We want to protect Rwanda's forests by replacing tree-based fuel with eco-friendly innovations, ensuring a greener tommorrow for everyone.
+            </h5>
+            <div class="d-flex align-items-center pt-4 animated slideInDown">
+              <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
+                >Read More</a
+              >
+              <button
+                type="button"
+                class="btn-play"
+                data-bs-toggle="modal"
+                data-src="img/hero.mp4"
+                data-bs-target="#videoModal"
+              >
+                <span></span>
+              </button>
+              <h6 class="text-white m-0 ms-4 d-none d-sm-block">Watch Video</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="owl-carousel header-carousel">
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+            </div>
+            <div class="owl-carousel-item">
+              <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Video Modal Start -->
+    <div
+      class="modal modal-video fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- 16:9 aspect ratio -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                class="embed-responsive-item"
+                src=""
+                id="video"
+                allowfullscreen
+                allowscriptaccess="always"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="about">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2">#</span>Welcome To TenAfrika</p>
+            <h1 class="display-5 mb-4">
+              Problem Statement
+              <!-- <span class="text-primary">Zoofari</span> Park! -->
+            </h1>
+            <p class="mb-4">
+             In Kigali’s Nyarugenge district, climate change is intensifying deforestation and irregular rainfall, causing severe soil erosion, flooding, food insecurity, and rising urban temperatures. These problems worsen during the rainy seasons, damaging homes and infrastructure. Nyarugenge’s vulnerability is heightened by limited tree cover, poor waste management, and weak land use planning. Overreliance on wood fuel—accounting for about 83% of Rwanda’s total energy use and over 90% in rural areas (Ministry of Environment, 2023)—along with widespread tree cutting, are key drivers of environmental degradation. Weak urban planning and rapid, unregulated urbanization further increase flood risk and ecosystem loss. This threatens national sustainability goals, including Rwanda’s Vision 2050, and endangers public health and urban resilience. Urgent, coordinated action is needed in Nyarugenge to restore green spaces, promote clean energy, improve waste management, and empower communities to build a climate-resilient, healthier urban environment.
+            </p>
+           
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="img-fluid" src="img/women.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Facts Start -->
+    <div
+      class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <i class="fa fa-paw fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">6</h1>
+            <p class="text-white mb-0">Total Membership</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">20</h1>
+            <p class="text-white mb-0">Communities Visited</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+            <p class="text-white mb-0">Total Membership</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
+            <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+            <p class="text-white mb-0">Save Wild Life</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Facts End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5" id="analysis">
+      <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Whys</p>
+            <h1 class="display-5 mb-0">
+              Root Cause
+              <span class="text-primary">Analysis</span>
+            </h1>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5"
+            >
+              <i class="fa fa-3x fa-mobile-alt text-white"></i>
+              <div class="ms-4">
+                <p class="text-white mb-0">Call for more info</p>
+                <h2 class="text-white mb-0">+250 795 765 620</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">Why did this specific issue occur?</h5>
+            <span
+              >Limited Alternatives and Public Awareness:Lack of access to affordable clean energy and low public awareness around sustainable practices make it difficult for communities to transition away from wood fuel and engage in environmental protection.</span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-3.png" alt="Icon" />
+            <h5 class="mb-3">Why did this problem go undetected?</h5>
+            <span
+              >Competing Development Priorities:With government having to combat poverty reduction, Better health care and better education system as its prioriities,Biomass is left on the not a as a priority in the mentime </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-4.png" alt="Icon" />
+            <h5 class="mb-3">Why was the problem not prevented?</h5>
+            <span
+              >Competing development priorities poverty, health, and education.. draw government attention and funds:They're focused on bigger survival issues like poverty and healthcare </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-5.png" alt="Icon" />
+            <h5 class="mb-3">Fourth Why</h5>
+            <span
+              >Fragmented planning and weak coordination between environmental policy and energy/social planning:Different sectors dont work together enough </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-6.png" alt="Icon" />
+            <h5 class="mb-3">Fifth Why</h5>
+            <span
+              >Insufficient policy enforcement, limited funding, and lack of local-level empowerment in decision-making:Local leaders lack money, support and power to act </span
+            >
+          </div>
+          
+        
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Animal Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div
+          class="row g-5 mb-5 align-items-end wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>TenAfrika</p>
+            <h1 class="display-5 mb-0">
+             Discover
+            </h1>
+          </div>
+          <div class="col-lg-6 text-lg-end">
+            <a class="btn btn-primary py-3 px-5" href=""
+              >Explore</a
+            >
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-1.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-1.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-1.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-lg-1.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-2.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/d1.jpeg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-2.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-2.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row g-4">
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-md-3.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/animal-md-3.jpg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-12">
+                <a
+                  class="animal-item"
+                  href="img/animal-lg-3.jpg"
+                  data-lightbox="animal"
+                >
+                  <div class="position-relative">
+                    <img class="img-fluid" src="img/d2.jpeg" alt="" />
+                    <div class="animal-text p-4">
+                      <p class="text-white small text-uppercase mb-0">Animal</p>
+                      <h5 class="text-white mb-0">Elephant</h5>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Animal End -->
+     <!-- Pestel Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Trends</p>
+            <h1 class="display-5 mb-0">
+             Pestel
+              <span class="text-primary">Analysis</span>
+            </h1>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="bg-primary h-100 d-flex align-items-center py-4 px-4 px-sm-5"
+            >
+              <i class="fa fa-3x fa-mobile-alt text-white"></i>
+              <div class="ms-4">
+                <p class="text-white mb-0">Call for more info</p>
+                <h2 class="text-white mb-0">+250 795 765 620</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">Political</h5>
+            <span
+              >Rwanda's government is serious about saving forests that cutting trees without permission is illegal and they're investing in clean cooking programs to stop deforestation which is great for CANA. Our mission fits right into national priorities.</span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-3.png" alt="Icon" />
+            <h5 class="mb-3">ECONOMIC</h5>
+            <span
+              >Most Rwandans still rely on charcoal or firewood because its what they can afford but prices are rising faster and a lot of families are spending more than they should just cook. Our mission has a chance to step in with cleaner and cheaper alternatives like CANA briquettes </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-4.png" alt="Icon" />
+            <h5 class="mb-3">SOCIAL</h5>
+            <span
+              >Smoke from charcoal and firewood aren't just hurting forests, they are harming people, especially women and children because it causes illness. Gathering firewood takes hours and most families deserve better options that will change their lives and habits through education and community trust. </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-5.png" alt="Icon" />
+            <h5 class="mb-3">TECHNOLOGICAL</h5>
+            <span
+              >Better tools are becoming available, for instance, manual presses, solar dryers, and clean cookstoves. Mobile technology like WhatsApp can help people order easily. </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-6.png" alt="Icon" />
+            <h5 class="mb-3">LEGAL</h5>
+            <span
+              >CANA briquettes operates under laws that promote forest protection and clean energy. We follow environmental, air quality and consumer protection regulations, secure biomas permits, and ensure proper labeling. Registering our brand and methods protects or innovation. Staying compliant shows our commitment to nature, people, and responsible business. </span
+            >
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-6.png" alt="Icon" />
+            <h5 class="mb-3">ENVIROMENTAL</h5>
+            <span
+              >Even though Rwanda has increased forest cover, trees are still being cut at alarming rates for cooking fuel. According to The New Time, schools are banning firewood by 2032, and the government is pushing for clean energy which makes us part of the solution to one of Rwanda's biggest environmental problems. </span
+            >
+          </div>
+          
+        
+        </div>
+      </div>
+    </div>
+    <!-- Pestel End -->
+<!-- Empathy Mapping -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-6">
+            <p><span class="text-primary me-2">#</span>Empathy</p>
+            <h1 class="display-5 mb-0">
+            Empathy
+              <span class="text-primary">Mapping</span>
+            </h1>
+          </div>
+          
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">Who are we empathizing with?</h5>
+            <span
+              >Low income families in Nyarugenge district, especially women who gather wood (cook)</span
+            >
+          </div>
+           <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">What do they need to do?</h5>
+            <span
+              >Shift to cleaner cleaner energy and participate in local environmental programs</span
+            >
+          </div>
+        </div>
+     
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">What do they see?</h5>
+            <span
+              >Deforasted areas, flooded streets, rising fuelwood prices, and poor waste systems</span
+            >
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3"> What do they say?</h5>
+            <span
+              >"We have no other choice because gas is too expensive" "We know the rains are worse now" </span
+            >
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">What do they do?</h5>
+            <span
+              >Cut trees, burn waste,use charcoal or firewood for cooking and ignore waste disposal norms </span
+            >
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3"> What do they hear?</h5>
+            <span
+              >Local leaders urging reforastion and health concerns about smoke, NGOs advocating change</span
+            >
+          </div>
+        </div>
+        <div class="row gy-5 gx-4">
+          <div
+            class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
+            <h5 class="mb-3">What do they think and feel?</h5>
+            <span
+              >Pains: Fear of flooding, frustration over rising fuel prices, anxious about their health. Gains: they hope for affordable gas or solar, clean air, and safer homes</span
+            >
+          </div>
+          
+        </div>
+      </div>
+          
+    </div>
+    <!-- Empathy Mapping End -->
+      <!-- Solution Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p><span class="text-primary me-2">#</span>TenAfrika</p>
+            <h1 class="display-5 mb-4">
+              Solution 
+              <span class="text-primary">Statement</span> 
+            </h1>
+            <p class="mb-4">
+             We want to introduce and spread eco-friendly charcoal briquettes in Nyarugenge as a clean energy solution to reduce heavy use of wood fuel. These briquettes are made from waste like sawdust or crop leftovers, burn longer with less smoke, and help fight deforestation and health issues caused by indoor air pollution. They're cheap, easy to make with simple machines (Manual Briquette Press) and sold locally through cooperatives or community hubs. The goal is to train youth and women to produce and sell them, creating jobs, while also protecting the environment. Groups like REMA can help support this effort, and education programs will teach families how to switch from firewood. This solution is not only affordable but also helps poor families, save trees, and build a cleaner, greener future for everyone.
+            </p>
+           
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="img-border">
+              <img class="img-fluid" src="img/women.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Solution End -->
+    
+
+    
+
+    <!-- Stakeholder Start -->
+    <div class="container-xxl py-5" id="stakeholder">
+      <div class="container">
+        <h1
+          class="display-5 text-center mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          Stakeholder Analysis
+        </h1>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-1.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                They are the ones who initialize environmental and wild life policies
+              </p>
+              <h5 class="mb-1">Government</h5>
+              <span class="fst-italic">High Influence & High Interest</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-2.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+               Primary users of biomass and affected by floods 
+              </p>
+              <h5 class="mb-1">The local community </h5>
+              <span class="fst-italic">High Interest</span>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
+              src="img/testimonial-3.jpg"
+              style="width: 100px; height: 100px"
+            />
+            <div class="testimonial-text rounded text-center p-4">
+              <p>
+                Run awareness campaigns, tree planting, clean energy advocacy
+              </p>
+              <h5 class="mb-1">Local NGOs</h5>
+              <span class="fst-italic">High Influence & High Interest</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Stakeholder End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s" id="contact"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Kigali,Rwanda
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+250 795 765 620
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@ten-africa.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="#about">About Us</a>
+            <a class="btn btn-link" href="#contact">Contact Us</a>
+            
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Popular Links</h5>
+            <a class="btn btn-link" href="#analysis">Analysis</a>
+            <a class="btn btn-link" href="#mission">Mission Statement</a>
+            <a class="btn btn-link" href="#stakeholder">Stakeholders</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>Subscribe to our Newsletter</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="index.html">TenAfrika</a>, All
+              Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              
+              Designed By
+              <a class="border-bottom" href="https://wa.me/+250795586806"
+                >The Eagle</a
+              >
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
